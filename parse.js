@@ -1,3 +1,3 @@
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+var c = new Counter(); c.add(); c.add(); c.add();
 const intermediateAppPath = path.join(buildOutputPath, 'app');
-const merge = [...new Set([...a, ...b])];
-console.log(+"1" +  "1" + "2");
