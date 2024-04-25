@@ -1,2 +1,2 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-const fullName = name || 'buddy';
+var DELIM_SIZE = 4;
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
