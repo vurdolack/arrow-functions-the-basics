@@ -1,3 +1,4 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-var c = new Counter(); c.add(); c.add(); c.add();
+const isEven = (num) => num % 2 === 0;
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
 const intermediateAppPath = path.join(buildOutputPath, 'app');
