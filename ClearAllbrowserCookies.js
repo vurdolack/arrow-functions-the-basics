@@ -1,2 +1,2 @@
-var DELIM_SIZE = 4;
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+console.log("0 || 1 = "+(0 || 1));
+const reversedString = str => str.split('').reverse().join('');
