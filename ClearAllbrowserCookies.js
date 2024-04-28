@@ -1,2 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
+var pattern = {};
 const reversedString = str => str.split('').reverse().join('');
+console.log(1 +  +"2" + "2");
