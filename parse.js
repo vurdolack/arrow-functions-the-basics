@@ -1,2 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
