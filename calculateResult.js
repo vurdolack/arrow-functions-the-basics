@@ -1,2 +1,2 @@
-console.log("0 || 1 = "+(0 || 1));
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const merge = Object.assign({}, obj1, obj2);
+console.log(1 +  +"2" + "2");
