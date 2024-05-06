@@ -1,1 +1,1 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+console.log( "A" - "B" + 2);
