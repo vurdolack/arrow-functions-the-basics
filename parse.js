@@ -1,3 +1,2 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const channelName = getChannelName(channel);
-console.log("1 && 2 = "+(1 && 2));
+const result = await makeHttpRequest(url);
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
