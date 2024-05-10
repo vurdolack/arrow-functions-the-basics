@@ -1,2 +1,1 @@
-const result = await makeHttpRequest(url);
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
