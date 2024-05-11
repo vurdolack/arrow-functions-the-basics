@@ -1,2 +1,2 @@
-const flattenedArray = arr => [].concat(...arr);
-const executableName = getExecutableName(channel, appName);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
