@@ -1,2 +1,1 @@
-const merge = [...new Set(a.concat(b))];
-console.log(false == '0');
+console.log("1 && 2 = "+(1 && 2));
