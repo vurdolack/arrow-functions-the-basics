@@ -1,1 +1,3 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const reversedString = str => str.split('').reverse().join('');
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const uniqueArray = arr => [...new Set(arr)];
