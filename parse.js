@@ -1,1 +1,1 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const stringReverse = str => str.split("").reverse().join("");
