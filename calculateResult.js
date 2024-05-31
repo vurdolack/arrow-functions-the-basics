@@ -1,2 +1,2 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const merge = (a, b) => [...a, ...b];
+var arr3 = "jones".split('');
+const fullName = name || 'buddy';
