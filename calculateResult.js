@@ -1,2 +1,1 @@
-var arr3 = "jones".split('');
-const fullName = name || 'buddy';
+const appName = getAppName(channel);
