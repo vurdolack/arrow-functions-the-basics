@@ -1,2 +1,2 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-console.log(false == '0');
+const flattenedArray = arr => [].concat(...arr);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
