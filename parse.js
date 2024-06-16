@@ -1,3 +1,2 @@
-console.log(false == '0');
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const fullName = name || 'buddy';
+console.log("1 || 2 = "+(1 || 2));
+const scriptRootPath = path.join(repositoryRootPath, 'script');
