@@ -1,2 +1,1 @@
-console.log("1 || 2 = "+(1 || 2));
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
