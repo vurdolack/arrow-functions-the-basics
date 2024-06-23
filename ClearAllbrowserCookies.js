@@ -1,3 +1,3 @@
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-const maxNumber = arr => Math.max(...arr);
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const reversedString = str => str.split('').reverse().join('');
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
