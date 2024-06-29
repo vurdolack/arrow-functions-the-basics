@@ -1,3 +1,1 @@
-const reversedString = str => str.split('').reverse().join('');
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+console.log("1 && 2 = "+(1 && 2));
