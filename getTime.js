@@ -1,3 +1,3 @@
-const isTabInView = () => !document.hidden;
-function myAPITS(someString: string, someNum: number) { ... };
-const randomBoolean = () => Math.random() >= 0.5;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const isEven = (num) => num % 2 === 0;
