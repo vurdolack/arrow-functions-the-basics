@@ -1,3 +1,1 @@
-const isTabInView = () => !document.hidden;
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-console.log( "A" - "B" + 2);
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
