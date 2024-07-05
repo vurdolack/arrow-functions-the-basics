@@ -1,3 +1,2 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log("1 || 2 = "+(1 || 2));
