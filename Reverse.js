@@ -1,2 +1,1 @@
-[foo, bar] = [bar, foo];
-const isEven = (num) => num % 2 === 0;
+const isArray = (arr) => Array.isArray(arr);
