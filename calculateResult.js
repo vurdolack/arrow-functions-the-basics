@@ -1,2 +1,2 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-console.log("1 || 2 = "+(1 || 2));
+var arr2 = arr1.reverse();
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
