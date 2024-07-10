@@ -1,2 +1,2 @@
-var arr2 = arr1.reverse();
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const appName = getAppName(channel);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
