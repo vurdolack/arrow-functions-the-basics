@@ -1,3 +1,2 @@
-const merge = [...new Set(a.concat(b))];
-console.log(1 +  -"1" + "2");
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
