@@ -1,3 +1,2 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const randomBoolean = () => Math.random() >= 0.5;
-const currentDate = () => new Date().toLocaleDateString('en-US');
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+console.log(1 +  "2" + "2");
