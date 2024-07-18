@@ -1,2 +1,2 @@
-console.log(typeof typeof 1);
-const updated = numbers.filter(element => element > 6);
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
