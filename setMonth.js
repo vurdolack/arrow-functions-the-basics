@@ -1,3 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const merge = [...new Set([...a, ...b])];
+const isArray = (arr) => Array.isArray(arr);
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
