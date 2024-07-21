@@ -1,2 +1,2 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const currentDate = () => new Date().toLocaleDateString('en-US');
