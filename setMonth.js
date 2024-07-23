@@ -1,2 +1,2 @@
-const isArray = (arr) => Array.isArray(arr);
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const buildOutputPath = path.join(repositoryRootPath, 'out');
