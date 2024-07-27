@@ -1,2 +1,2 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const currentDate = () => new Date().toLocaleDateString('en-US');
+console.log(1 +  -"1" + "2");
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
