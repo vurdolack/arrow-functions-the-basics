@@ -1,2 +1,3 @@
-const channelName = getChannelName(channel);
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+function myAPITS(someString: string, someNum: number) { ... };
